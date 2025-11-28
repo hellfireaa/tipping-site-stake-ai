@@ -2,255 +2,415 @@
     {
         "id": "r1",
         "type": "racing",
-        "title": "MRC Membership Black Friday Sale (BM84)",
+        "title": "Zipping Classic",
         "venue": "Caulfield",
-        "category": "Race 1 - 2400m",
-        "startTime": "2025-11-28T12:20:00+11:00",
+        "category": "Race 8 - Distance not specified",
+        "startTime": "2025-11-29T05:00:00Z",
         "competitors": [
             {
                 "id": "h1",
-                "name": "Black Run",
-                "number": 2,
-                "barrier": null,
-                "jockey": "Ryan Houston",
-                "odds": 2.6
+                "name": "TBA Horse 1",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "TBA Jockey 1",
+                "odds": 4
             },
             {
                 "id": "h2",
-                "name": "Ziryab",
-                "number": 4,
-                "barrier": null,
-                "jockey": null,
-                "odds": 4.8
+                "name": "TBA Horse 2",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "TBA Jockey 2",
+                "odds": 4.5
             },
             {
                 "id": "h3",
-                "name": "Light Infantry Man",
-                "number": 1,
-                "barrier": null,
-                "jockey": null,
-                "odds": 4.8
+                "name": "TBA Horse 3",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "TBA Jockey 3",
+                "odds": 5
             },
             {
                 "id": "h4",
-                "name": "Alalcance",
-                "number": 13,
-                "barrier": null,
-                "jockey": null,
-                "odds": 4.8
+                "name": "TBA Horse 4",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "TBA Jockey 4",
+                "odds": 6
             },
             {
                 "id": "h5",
-                "name": "Taramansour",
-                "number": 1,
-                "barrier": null,
-                "jockey": null,
-                "odds": 21
+                "name": "TBA Horse 5",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "TBA Jockey 5",
+                "odds": 8
+            },
+            {
+                "id": "h6",
+                "name": "TBA Horse 6",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "TBA Jockey 6",
+                "odds": 10
+            },
+            {
+                "id": "h7",
+                "name": "TBA Horse 7",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "TBA Jockey 7",
+                "odds": 12
+            },
+            {
+                "id": "h8",
+                "name": "TBA Horse 8",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "TBA Jockey 8",
+                "odds": 15
+            },
+            {
+                "id": "h9",
+                "name": "TBA Horse 9",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "TBA Jockey 9",
+                "odds": 20
+            },
+            {
+                "id": "h10",
+                "name": "TBA Horse 10",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "TBA Jockey 10",
+                "odds": 25
+            },
+            {
+                "id": "h11",
+                "name": "TBA Horse 11",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "TBA Jockey 11",
+                "odds": 30
+            },
+            {
+                "id": "h12",
+                "name": "TBA Horse 12",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "TBA Jockey 12",
+                "odds": 40
             }
         ],
         "prediction": {
             "winnerId": "h1",
-            "confidence": 70,
-            "reasoning": "Black Run is in a purple patch, winning two in a row. Good racing style and in form.",
-            "valueRating": "High"
+            "confidence": 60,
+            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Zipping Classic.",
+            "valueRating": "Medium"
         }
     },
     {
         "id": "r2",
         "type": "racing",
-        "title": "Schweppes Handicap",
+        "title": "Festival Stakes",
         "venue": "Rosehill",
-        "category": "Race 1 - 1100m",
-        "startTime": "2025-11-28T12:35:00+11:00",
+        "category": "Race details not specified",
+        "startTime": "2025-11-29T04:00:00Z",
         "competitors": [
             {
-                "id": "h1",
-                "name": "Euripedes",
-                "number": 3,
-                "barrier": null,
-                "jockey": "Rachel King",
-                "odds": 2.8
+                "id": "h13",
+                "name": "TBA Horse 13",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "TBA Jockey 13",
+                "odds": 5
             },
             {
-                "id": "h2",
-                "name": "Jaipur Maison",
-                "number": 11,
-                "barrier": null,
-                "jockey": null,
-                "odds": 3.3
-            },
-            {
-                "id": "h3",
-                "name": "Dr Hook",
+                "id": "h14",
+                "name": "TBA Horse 14",
                 "number": 2,
-                "barrier": null,
-                "jockey": null,
-                "odds": 4
+                "barrier": 2,
+                "jockey": "TBA Jockey 14",
+                "odds": 5.5
             },
             {
-                "id": "h4",
-                "name": "Tigroni",
+                "id": "h15",
+                "name": "TBA Horse 15",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "TBA Jockey 15",
+                "odds": 6
+            },
+            {
+                "id": "h16",
+                "name": "TBA Horse 16",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "TBA Jockey 16",
+                "odds": 7
+            },
+            {
+                "id": "h17",
+                "name": "TBA Horse 17",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "TBA Jockey 17",
+                "odds": 9
+            },
+            {
+                "id": "h18",
+                "name": "TBA Horse 18",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "TBA Jockey 18",
+                "odds": 11
+            },
+            {
+                "id": "h19",
+                "name": "TBA Horse 19",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "TBA Jockey 19",
+                "odds": 13
+            },
+            {
+                "id": "h20",
+                "name": "TBA Horse 20",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "TBA Jockey 20",
+                "odds": 16
+            },
+            {
+                "id": "h21",
+                "name": "TBA Horse 21",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "TBA Jockey 21",
+                "odds": 21
+            },
+            {
+                "id": "h22",
+                "name": "TBA Horse 22",
                 "number": 10,
-                "barrier": null,
-                "jockey": null,
-                "odds": 8
+                "barrier": 10,
+                "jockey": "TBA Jockey 22",
+                "odds": 26
+            },
+            {
+                "id": "h23",
+                "name": "TBA Horse 23",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "TBA Jockey 23",
+                "odds": 31
+            },
+            {
+                "id": "h24",
+                "name": "TBA Horse 24",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "TBA Jockey 24",
+                "odds": 41
             }
         ],
         "prediction": {
-            "winnerId": "h1",
-            "confidence": 65,
-            "reasoning": "Euripedes is a debutant who has had two public trials, winning one and finishing as runner up on the other.",
+            "winnerId": "h13",
+            "confidence": 55,
+            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Festival Stakes.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "r3",
         "type": "racing",
-        "title": "Rydges Palmerston Handicap",
-        "venue": "Darwin",
-        "category": "Benchmark 76 - 1600m",
-        "startTime": "2025-11-28T16:45:00+09:30",
+        "title": "Recognition Stakes",
+        "venue": "Doomben",
+        "category": "Race details not specified",
+        "startTime": "2025-11-29T03:30:00Z",
         "competitors": [
             {
-                "id": "h1",
-                "name": "Peel The Stickers",
-                "number": null,
-                "barrier": null,
-                "jockey": null,
-                "odds": 3.5
+                "id": "h25",
+                "name": "TBA Horse 25",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "TBA Jockey 25",
+                "odds": 6
             },
             {
-                "id": "h2",
-                "name": "Beau Factor",
-                "number": null,
-                "barrier": null,
-                "jockey": "Dakota Gillett",
-                "odds": 4.2
+                "id": "h26",
+                "name": "TBA Horse 26",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "TBA Jockey 26",
+                "odds": 6.5
             },
             {
-                "id": "h3",
-                "name": "Vieri",
-                "number": null,
-                "barrier": null,
-                "jockey": "Sonja Logan",
-                "odds": 6.0
+                "id": "h27",
+                "name": "TBA Horse 27",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "TBA Jockey 27",
+                "odds": 7
             },
             {
-                "id": "h4",
-                "name": "Cacofonix",
-                "number": null,
-                "barrier": null,
-                "jockey": null,
-                "odds": 8.5
+                "id": "h28",
+                "name": "TBA Horse 28",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "TBA Jockey 28",
+                "odds": 8
             },
             {
-                "id": "h5",
-                "name": "Awash",
-                "number": null,
-                "barrier": null,
-                "jockey": null,
-                "odds": 11.0
+                "id": "h29",
+                "name": "TBA Horse 29",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "TBA Jockey 29",
+                "odds": 10
             },
             {
-                "id": "h6",
-                "name": "Kangaroo Court",
-                "number": null,
-                "barrier": null,
-                "jockey": null,
-                "odds": 13.0
+                "id": "h30",
+                "name": "TBA Horse 30",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "TBA Jockey 30",
+                "odds": 12
             },
             {
-                "id": "h7",
-                "name": "The Albion",
-                "number": null,
-                "barrier": null,
-                "jockey": null,
-                "odds": 15.0
+                "id": "h31",
+                "name": "TBA Horse 31",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "TBA Jockey 31",
+                "odds": 14
+            },
+            {
+                "id": "h32",
+                "name": "TBA Horse 32",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "TBA Jockey 32",
+                "odds": 17
+            },
+            {
+                "id": "h33",
+                "name": "TBA Horse 33",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "TBA Jockey 33",
+                "odds": 22
+            },
+            {
+                "id": "h34",
+                "name": "TBA Horse 34",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "TBA Jockey 34",
+                "odds": 27
+            },
+            {
+                "id": "h35",
+                "name": "TBA Horse 35",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "TBA Jockey 35",
+                "odds": 32
+            },
+            {
+                "id": "h36",
+                "name": "TBA Horse 36",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "TBA Jockey 36",
+                "odds": 42
             }
         ],
         "prediction": {
-            "winnerId": "h1",
-            "confidence": 60,
-            "reasoning": "Peel The Stickers is fancied to collect his first win. Beau Factor has an unblemished record over this journey.",
+            "winnerId": "h25",
+            "confidence": 50,
+            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Recognition Stakes.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s1",
         "type": "sport",
-        "title": "Brisbane Roar vs Melbourne Victory",
-        "venue": "Suncorp Stadium",
-        "category": "A-League",
-        "startTime": "2025-11-28T12:35:00-08:00",
+        "title": "Baltimore Ravens vs Cincinnati Bengals",
+        "venue": "M&T Bank Stadium",
+        "category": "NFL Week 13",
+        "startTime": "2025-11-28T12:20:00Z",
         "competitors": [
             {
                 "id": "t1",
-                "name": "Brisbane Roar",
-                "odds": 2.10
+                "name": "Baltimore Ravens",
+                "odds": 1.7
             },
             {
                 "id": "t2",
-                "name": "Melbourne Victory",
-                "odds": 3.40
+                "name": "Cincinnati Bengals",
+                "odds": 2.1
             }
         ],
         "prediction": {
             "winnerId": "t1",
-            "confidence": 75,
-            "reasoning": "Brisbane Roar enters this match in excellent form, having avoided defeat in 16 of their last 18 matches across all competitions.",
+            "confidence": 70,
+            "reasoning": "Ravens are playing at home and have a slightly better record this season. Their defense has been consistent, giving them an edge.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s2",
         "type": "sport",
-        "title": "Australia Boomers vs New Zealand Tall Blacks",
-        "venue": "MyState Bank Arena, Hobart",
-        "category": "FIBA World Cup Qualifiers",
-        "startTime": "2025-11-28T19:30:00+11:00",
+        "title": "Australia vs New Zealand",
+        "venue": "TBA",
+        "category": "Men's 2027 FIBA World Cup Qualifiers",
+        "startTime": "2025-11-28T08:00:00Z",
         "competitors": [
             {
-                "id": "t1",
-                "name": "Australia Boomers",
-                "odds": 1.25
+                "id": "t3",
+                "name": "Australia",
+                "odds": 1.4
             },
             {
-                "id": "t2",
-                "name": "New Zealand Tall Blacks",
-                "odds": 4.50
+                "id": "t4",
+                "name": "New Zealand",
+                "odds": 2.75
             }
         ],
         "prediction": {
-            "winnerId": "t1",
-            "confidence": 80,
-            "reasoning": "Boomers are the stronger team, even without NBA players. Jaylin Galloway is a key player to watch.",
+            "winnerId": "t3",
+            "confidence": 75,
+            "reasoning": "Australia is generally stronger in basketball. Playing at home provides an additional advantage.",
             "valueRating": "High"
         }
     },
     {
         "id": "s3",
         "type": "sport",
-        "title": "Sydney Flames vs Bendigo Spirit",
-        "venue": "Quaycentre",
-        "category": "WNBL",
-        "startTime": "2025-11-28T19:30:00+11:00",
+        "title": "A-League Round 6",
+        "venue": "Various Stadiums",
+        "category": "A-League 2025-26",
+        "startTime": "2025-11-29T06:00:00Z",
         "competitors": [
             {
-                "id": "t1",
-                "name": "Sydney Flames",
-                "odds": 1.85
+                "id": "t5",
+                "name": "Team A",
+                "odds": 2
             },
             {
-                "id": "t2",
-                "name": "Bendigo Spirit",
-                "odds": 1.95
+                "id": "t6",
+                "name": "Team B",
+                "odds": 3.5
             }
         ],
         "prediction": {
-            "winnerId": "t1",
+            "winnerId": "t5",
             "confidence": 65,
-            "reasoning": "No specific form found, general home-court advantage assumed. ",
-            "valueRating": "Low"
+            "reasoning": "Team A has shown better form in the early stages of the season. Their attacking lineup looks promising.",
+            "valueRating": "Medium"
         }
     }
 ]

@@ -1,0 +1,120 @@
+[
+    {
+        "id": "r2",
+        "type": "racing",
+        "title": "McGrath Estate Agents Maiden Plate",
+        "venue": "Geelong",
+        "category": "Race 3 - 1114m",
+        "startTime": "2025-11-26T04:50:00+11:00",
+        "competitors": [
+            {
+                "id": "h4",
+                "name": "Lady Verity",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "TBD",
+                "odds": 1.7
+            },
+            {
+                "id": "h5",
+                "name": "Jade Trees",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "TBD",
+                "odds": 5
+            },
+            {
+                "id": "h6",
+                "name": "Other Horse",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "TBD",
+                "odds": 8
+            }
+        ],
+        "prediction": {
+            "winnerId": "h4",
+            "confidence": 75,
+            "reasoning": "Lady Verity is resuming off quality Mornington jumpouts and looks the one to beat. She was very good when 2nd at Sale after settling 4th in the run. She should have matured and learned a bit from that.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "won",
+            "actualWinnerName": "Lady Verity",
+            "scoreOrTime": null
+        },
+        "profit": 14,
+        "resolvedAt": "2025-11-25T12:55:51.641Z"
+    },
+    {
+        "id": "s2",
+        "type": "sport",
+        "title": "Sydney Flames vs Geelong Venom",
+        "venue": "Quaycentre",
+        "category": "WNBL",
+        "startTime": "2025-11-26T19:00:00+11:00",
+        "competitors": [
+            {
+                "id": "t3",
+                "name": "Sydney Flames",
+                "odds": 1.6
+            },
+            {
+                "id": "t4",
+                "name": "Geelong Venom",
+                "odds": 2.25
+            }
+        ],
+        "prediction": {
+            "winnerId": "t3",
+            "confidence": 75,
+            "reasoning": "Sydney Flames have a strong home record and a more experienced squad. Geelong Venom are a newer team and may struggle against the Flames' defense.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "won",
+            "actualWinnerName": "Sydney Flames",
+            "scoreOrTime": "85-77"
+        },
+        "profit": 12,
+        "resolvedAt": "2025-11-25T12:56:01.384Z"
+    },
+    {
+        "id": "s3",
+        "type": "sport",
+        "title": "Australian PGA Championship",
+        "venue": "Royal Queensland Golf Club",
+        "category": "Golf",
+        "startTime": "2025-11-26T21:00:00+11:00",
+        "competitors": [
+            {
+                "id": "p1",
+                "name": "Cameron Smith",
+                "odds": 8
+            },
+            {
+                "id": "p2",
+                "name": "Min Woo Lee",
+                "odds": 10
+            },
+            {
+                "id": "p3",
+                "name": "Adam Scott",
+                "odds": 12
+            }
+        ],
+        "prediction": {
+            "winnerId": "p1",
+            "confidence": 60,
+            "reasoning": "Cameron Smith has a good track record at Royal Queensland and is in solid form. The course suits his style of play, giving him an edge over the competition.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "Elvis Smylie",
+            "scoreOrTime": null
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-25T12:56:04.136Z"
+    }
+]

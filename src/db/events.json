@@ -1,0 +1,256 @@
+[
+    {
+        "id": "r1",
+        "type": "racing",
+        "title": "MRC Membership Black Friday Sale (BM84)",
+        "venue": "Caulfield",
+        "category": "Race 1 - 2400m",
+        "startTime": "2025-11-28T12:20:00+11:00",
+        "competitors": [
+            {
+                "id": "h1",
+                "name": "Black Run",
+                "number": 2,
+                "barrier": null,
+                "jockey": "Ryan Houston",
+                "odds": 2.6
+            },
+            {
+                "id": "h2",
+                "name": "Ziryab",
+                "number": 4,
+                "barrier": null,
+                "jockey": null,
+                "odds": 4.8
+            },
+            {
+                "id": "h3",
+                "name": "Light Infantry Man",
+                "number": 1,
+                "barrier": null,
+                "jockey": null,
+                "odds": 4.8
+            },
+            {
+                "id": "h4",
+                "name": "Alalcance",
+                "number": 13,
+                "barrier": null,
+                "jockey": null,
+                "odds": 4.8
+            },
+            {
+                "id": "h5",
+                "name": "Taramansour",
+                "number": 1,
+                "barrier": null,
+                "jockey": null,
+                "odds": 21
+            }
+        ],
+        "prediction": {
+            "winnerId": "h1",
+            "confidence": 70,
+            "reasoning": "Black Run is in a purple patch, winning two in a row. Good racing style and in form.",
+            "valueRating": "High"
+        }
+    },
+    {
+        "id": "r2",
+        "type": "racing",
+        "title": "Schweppes Handicap",
+        "venue": "Rosehill",
+        "category": "Race 1 - 1100m",
+        "startTime": "2025-11-28T12:35:00+11:00",
+        "competitors": [
+            {
+                "id": "h1",
+                "name": "Euripedes",
+                "number": 3,
+                "barrier": null,
+                "jockey": "Rachel King",
+                "odds": 2.8
+            },
+            {
+                "id": "h2",
+                "name": "Jaipur Maison",
+                "number": 11,
+                "barrier": null,
+                "jockey": null,
+                "odds": 3.3
+            },
+            {
+                "id": "h3",
+                "name": "Dr Hook",
+                "number": 2,
+                "barrier": null,
+                "jockey": null,
+                "odds": 4
+            },
+            {
+                "id": "h4",
+                "name": "Tigroni",
+                "number": 10,
+                "barrier": null,
+                "jockey": null,
+                "odds": 8
+            }
+        ],
+        "prediction": {
+            "winnerId": "h1",
+            "confidence": 65,
+            "reasoning": "Euripedes is a debutant who has had two public trials, winning one and finishing as runner up on the other.",
+            "valueRating": "Medium"
+        }
+    },
+    {
+        "id": "r3",
+        "type": "racing",
+        "title": "Rydges Palmerston Handicap",
+        "venue": "Darwin",
+        "category": "Benchmark 76 - 1600m",
+        "startTime": "2025-11-28T16:45:00+09:30",
+        "competitors": [
+            {
+                "id": "h1",
+                "name": "Peel The Stickers",
+                "number": null,
+                "barrier": null,
+                "jockey": null,
+                "odds": 3.5
+            },
+            {
+                "id": "h2",
+                "name": "Beau Factor",
+                "number": null,
+                "barrier": null,
+                "jockey": "Dakota Gillett",
+                "odds": 4.2
+            },
+            {
+                "id": "h3",
+                "name": "Vieri",
+                "number": null,
+                "barrier": null,
+                "jockey": "Sonja Logan",
+                "odds": 6.0
+            },
+            {
+                "id": "h4",
+                "name": "Cacofonix",
+                "number": null,
+                "barrier": null,
+                "jockey": null,
+                "odds": 8.5
+            },
+            {
+                "id": "h5",
+                "name": "Awash",
+                "number": null,
+                "barrier": null,
+                "jockey": null,
+                "odds": 11.0
+            },
+            {
+                "id": "h6",
+                "name": "Kangaroo Court",
+                "number": null,
+                "barrier": null,
+                "jockey": null,
+                "odds": 13.0
+            },
+            {
+                "id": "h7",
+                "name": "The Albion",
+                "number": null,
+                "barrier": null,
+                "jockey": null,
+                "odds": 15.0
+            }
+        ],
+        "prediction": {
+            "winnerId": "h1",
+            "confidence": 60,
+            "reasoning": "Peel The Stickers is fancied to collect his first win. Beau Factor has an unblemished record over this journey.",
+            "valueRating": "Medium"
+        }
+    },
+    {
+        "id": "s1",
+        "type": "sport",
+        "title": "Brisbane Roar vs Melbourne Victory",
+        "venue": "Suncorp Stadium",
+        "category": "A-League",
+        "startTime": "2025-11-28T12:35:00-08:00",
+        "competitors": [
+            {
+                "id": "t1",
+                "name": "Brisbane Roar",
+                "odds": 2.10
+            },
+            {
+                "id": "t2",
+                "name": "Melbourne Victory",
+                "odds": 3.40
+            }
+        ],
+        "prediction": {
+            "winnerId": "t1",
+            "confidence": 75,
+            "reasoning": "Brisbane Roar enters this match in excellent form, having avoided defeat in 16 of their last 18 matches across all competitions.",
+            "valueRating": "Medium"
+        }
+    },
+    {
+        "id": "s2",
+        "type": "sport",
+        "title": "Australia Boomers vs New Zealand Tall Blacks",
+        "venue": "MyState Bank Arena, Hobart",
+        "category": "FIBA World Cup Qualifiers",
+        "startTime": "2025-11-28T19:30:00+11:00",
+        "competitors": [
+            {
+                "id": "t1",
+                "name": "Australia Boomers",
+                "odds": 1.25
+            },
+            {
+                "id": "t2",
+                "name": "New Zealand Tall Blacks",
+                "odds": 4.50
+            }
+        ],
+        "prediction": {
+            "winnerId": "t1",
+            "confidence": 80,
+            "reasoning": "Boomers are the stronger team, even without NBA players. Jaylin Galloway is a key player to watch.",
+            "valueRating": "High"
+        }
+    },
+    {
+        "id": "s3",
+        "type": "sport",
+        "title": "Sydney Flames vs Bendigo Spirit",
+        "venue": "Quaycentre",
+        "category": "WNBL",
+        "startTime": "2025-11-28T19:30:00+11:00",
+        "competitors": [
+            {
+                "id": "t1",
+                "name": "Sydney Flames",
+                "odds": 1.85
+            },
+            {
+                "id": "t2",
+                "name": "Bendigo Spirit",
+                "odds": 1.95
+            }
+        ],
+        "prediction": {
+            "winnerId": "t1",
+            "confidence": 65,
+            "reasoning": "No specific form found, general home-court advantage assumed. ",
+            "valueRating": "Low"
+        }
+    }
+]

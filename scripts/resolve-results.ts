@@ -41,7 +41,8 @@ async function resolveResults() {
         // Use gemini-2.0-flash with googleSearch tool
         const model = genAI.getGenerativeModel({
             model: "gemini-2.0-flash",
-            tools: [{ googleSearch: {} } as any]
+            tools: [{ googleSearch: {} } as any],
+            generationConfig: { responseMimeType: "application/json" }
         });
 
         console.log(`Resolving results for ${events.length} events...`);
@@ -73,7 +74,17 @@ async function resolveResults() {
                 const result = await model.generateContent(prompt);
                 const response = await result.response;
                 let text = response.text();
-                text = text.replace(/```json/g, "").replace(/```/g, "").trim();
+                // Handle potential multiple JSON objects
+                const objects = text.split(/}\s*\{/);
+                if (objects.length > 1) {
+                    text = objects[0] + "}";
+                }
+
+                const jsonMatch = text.match(/\{[\s\S]*\}/);
+                if (jsonMatch) {
+                    text = jsonMatch[0];
+                }
+                console.log("Parsing JSON:", text);
                 const outcome = JSON.parse(text);
 
                 const predictedCompetitor = event.competitors.find((c: any) => c.id === event.prediction.winnerId);

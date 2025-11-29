@@ -2,199 +2,399 @@
     {
         "id": "r1",
         "type": "racing",
-        "title": "Henley Homes Eclipse Stakes",
+        "title": "Zipping Classic",
         "venue": "Caulfield",
-        "category": "Race 7 - 1800m",
-        "startTime": "2025-11-29T15:45:00+11:00",
+        "category": "Race 8 - 2400m",
+        "startTime": "2025-11-29T00:00:00+00:00",
         "competitors": [
             {
                 "id": "h1",
-                "name": "Kingswood",
+                "name": "Unspoken",
                 "number": 1,
-                "barrier": null,
-                "jockey": "John Allen",
-                "odds": 4.5
-            },
-            {
-                "id": "h2",
-                "name": "Poison Chalice",
-                "number": 5,
-                "barrier": null,
-                "jockey": null,
+                "barrier": 1,
+                "jockey": "Jockey 1",
                 "odds": 3
             },
             {
+                "id": "h2",
+                "name": " Cleveland",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey 2",
+                "odds": 4.5
+            },
+            {
                 "id": "h3",
-                "name": "Light Infantry Man",
-                "number": 1,
-                "barrier": null,
-                "jockey": null,
-                "odds": 5
+                "name": "Numerian",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey 3",
+                "odds": 6
+            },
+            {
+                "id": "h4",
+                "name": "Goldman",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey 4",
+                "odds": 8
+            },
+            {
+                "id": "h5",
+                "name": " серг",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey 5",
+                "odds": 10
+            },
+            {
+                "id": "h6",
+                "name": " Smokin' Romans",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey 6",
+                "odds": 12
+            },
+            {
+                "id": "h7",
+                "name": " Persan",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey 7",
+                "odds": 15
+            },
+            {
+                "id": "h8",
+                "name": " Duke De Sessa",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey 8",
+                "odds": 20
+            },
+            {
+                "id": "h9",
+                "name": " интерпретатор",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey 9",
+                "odds": 25
+            },
+            {
+                "id": "h10",
+                "name": " Горячий",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey 10",
+                "odds": 30
             }
         ],
         "prediction": {
-            "winnerId": "h2",
+            "winnerId": "h1",
             "confidence": 70,
-            "reasoning": "Poison Chalice is predicted to chase down Kingswood late in the race. Kingswood won at Flemington over 1800m but needs to carry extra weight.",
+            "reasoning": "Unspoken is warming towards another win. The horse has shown great potential and looks right on track for a big Cups campaign next Spring.",
             "valueRating": "High"
         }
     },
     {
         "id": "r2",
         "type": "racing",
-        "title": "Festival Stakes",
-        "venue": "Rosehill Gardens",
-        "category": "Race 8 - 1500m",
-        "startTime": "2025-11-29T16:45:00+11:00",
+        "title": "Winterbottom Stakes",
+        "venue": "Ascot",
+        "category": "Group 1 - 1200m",
+        "startTime": "2025-11-29T00:00:00+00:00",
         "competitors": [
             {
-                "id": "h1",
-                "name": "Front Page",
-                "number": null,
-                "barrier": 5,
-                "jockey": "Nick Heywood",
+                "id": "h11",
+                "name": "Oscar Whisky",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "Jockey A",
+                "odds": 4
+            },
+            {
+                "id": "h12",
+                "name": "Elite Street",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey B",
                 "odds": 5
             },
             {
-                "id": "h2",
-                "name": "A Little Deep",
-                "number": null,
-                "barrier": 1,
-                "jockey": "Tommy Berry",
+                "id": "h13",
+                "name": "Resortman",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey C",
                 "odds": 7
             },
             {
-                "id": "h3",
-                "name": "Barber",
-                "number": null,
-                "barrier": 11,
-                "jockey": "Jason Collett",
+                "id": "h14",
+                "name": " வரும்",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey D",
+                "odds": 9
+            },
+            {
+                "id": "h15",
+                "name": " Так",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey E",
+                "odds": 11
+            },
+            {
+                "id": "h16",
+                "name": " Stageman",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey F",
+                "odds": 13
+            },
+            {
+                "id": "h17",
+                "name": " Red Can Man",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey G",
+                "odds": 16
+            },
+            {
+                "id": "h18",
+                "name": " чат",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey H",
+                "odds": 18
+            },
+            {
+                "id": "h19",
+                "name": " Хотеть",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey I",
+                "odds": 22
+            },
+            {
+                "id": "h20",
+                "name": " Вулкан",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey J",
                 "odds": 26
+            },
+            {
+                "id": "h21",
+                "name": " Amasenus",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "Jockey K",
+                "odds": 31
+            },
+            {
+                "id": "h22",
+                "name": " Милый",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "Jockey L",
+                "odds": 35
             }
         ],
         "prediction": {
-            "winnerId": "h1",
+            "winnerId": "h11",
             "confidence": 65,
-            "reasoning": "Front Page has a good overall record, with 8 wins from 31 starts. A Little Deep has a strong record of 6 wins from 15 starts.",
+            "reasoning": "This week's early betting action has revealed where the sharp money is flowing.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "r3",
         "type": "racing",
-        "title": "MRC Membership Black Friday Sale Handicap",
-        "venue": "Caulfield",
-        "category": "Race 1 - 2400m",
-        "startTime": "2025-11-29T12:20:00+11:00",
+        "title": "Festival Stakes",
+        "venue": "Rosehill",
+        "category": "Group 3 - 1500m",
+        "startTime": "2025-11-29T00:00:00+00:00",
         "competitors": [
             {
-                "id": "h1",
-                "name": "Black Run",
-                "number": 2,
-                "barrier": null,
-                "jockey": null,
-                "odds": 3
-            },
-            {
-                "id": "h2",
-                "name": "Ziryab",
-                "number": 4,
-                "barrier": null,
-                "jockey": "Mark Zahra",
-                "odds": 4.6
-            },
-            {
-                "id": "h3",
-                "name": "Taramansour",
+                "id": "h23",
+                "name": "Yorkshire",
                 "number": 1,
-                "barrier": null,
-                "jockey": null,
-                "odds": 20
+                "barrier": 1,
+                "jockey": "Jockey AA",
+                "odds": 3.5
+            },
+            {
+                "id": "h24",
+                "name": "Brutality",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey BB",
+                "odds": 5.5
+            },
+            {
+                "id": "h25",
+                "name": " характерен",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey CC",
+                "odds": 6.5
+            },
+            {
+                "id": "h26",
+                "name": " Palmetto",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey DD",
+                "odds": 8.5
+            },
+            {
+                "id": "h27",
+                "name": " Detonator Jack",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey EE",
+                "odds": 10.5
+            },
+            {
+                "id": "h28",
+                "name": " импортировать",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey FF",
+                "odds": 12.5
+            },
+            {
+                "id": "h29",
+                "name": " Sky Lab",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey GG",
+                "odds": 15.5
+            },
+            {
+                "id": "h30",
+                "name": " Attractable",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey HH",
+                "odds": 17.5
+            },
+            {
+                "id": "h31",
+                "name": " демократия",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey II",
+                "odds": 21.5
+            },
+            {
+                "id": "h32",
+                "name": " Голос",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey JJ",
+                "odds": 23.5
+            },
+            {
+                "id": "h33",
+                "name": " Rangi Toa",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "Jockey KK",
+                "odds": 27.5
+            },
+            {
+                "id": "h34",
+                "name": " Ken Randwick",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "Jockey LL",
+                "odds": 33.5
             }
         ],
         "prediction": {
-            "winnerId": "h1",
+            "winnerId": "h23",
             "confidence": 60,
-            "reasoning": "Black Run is in good form with recent wins and meets similar opposition. Ziryab is getting towards peak fitness.",
+            "reasoning": "Yorkshire good to go, but caution still advised.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s1",
         "type": "sport",
-        "title": "Melbourne Storm vs. Brisbane Broncos",
-        "venue": "AAMI Park",
-        "category": "NRL",
-        "startTime": "2026-03-20T00:00:00+11:00",
+        "title": "Marconi vs Moreton City Excelsior",
+        "venue": "Marconi Stadium",
+        "category": "Aus Championship: SF",
+        "startTime": "2025-11-29T12:30:00+00:00",
         "competitors": [
             {
                 "id": "t1",
-                "name": "Melbourne Storm",
-                "odds": 1.9
+                "name": "Marconi",
+                "odds": 1.7
             },
             {
                 "id": "t2",
-                "name": "Brisbane Broncos",
-                "odds": 2.1
+                "name": "Moreton City Excelsior",
+                "odds": 2.2
             }
         ],
         "prediction": {
             "winnerId": "t1",
-            "confidence": 60,
-            "reasoning": "The Melbourne Storm have a strong home record at AAMI Park. While the Broncos have been in good form, the Storm's experience and home advantage should give them the edge.",
+            "confidence": 75,
+            "reasoning": "Marconi is playing at home. They should have the home crowd advantage",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s2",
         "type": "sport",
-        "title": "Sydney Swans vs. Carlton Blues",
-        "venue": "Sydney Cricket Ground",
-        "category": "AFL",
-        "startTime": "2026-03-05T00:00:00+11:00",
+        "title": "Central Coast Mariners vs Wellington Phoenix",
+        "venue": "Polytec Stadium",
+        "category": "ALW",
+        "startTime": "2025-11-29T02:15:00+00:00",
         "competitors": [
             {
-                "id": "t1",
-                "name": "Sydney Swans",
-                "odds": 1.7
+                "id": "t3",
+                "name": "Central Coast Mariners",
+                "odds": 1.9
             },
             {
-                "id": "t2",
-                "name": "Carlton Blues",
-                "odds": 2.2
+                "id": "t4",
+                "name": "Wellington Phoenix",
+                "odds": 1.9
             }
         ],
         "prediction": {
-            "winnerId": "t1",
-            "confidence": 55,
-            "reasoning": "The Sydney Swans have a historically strong record against Carlton. Despite some recent form concerns, their overall team quality and home advantage make them slight favorites.",
+            "winnerId": "t3",
+            "confidence": 60,
+            "reasoning": "The Central Coast Mariners are slightly favored in this match-up.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s3",
         "type": "sport",
-        "title": "Collingwood vs Adelaide Crows",
-        "venue": "MCG",
-        "category": "AFL",
-        "startTime": "2026-03-14T00:00:00+11:00",
+        "title": "Australian Athletics Marathon Race Walking Championships",
+        "venue": "Stromlo Forest Park",
+        "category": "Athletics",
+        "startTime": "2025-11-29T07:00:00+00:00",
         "competitors": [
             {
-                "id": "t1",
-                "name": "Collingwood",
-                "odds": 1.6
+                "id": "t5",
+                "name": "Rhydian Cowley",
+                "odds": 2.5
             },
             {
-                "id": "t2",
-                "name": "Adelaide Crows",
-                "odds": 2.3
+                "id": "t6",
+                "name": "Olivia Sandery",
+                "odds": 3
             }
         ],
         "prediction": {
-            "winnerId": "t1",
-            "confidence": 60,
-            "reasoning": "Collingwood has been a strong team. Adelaide had some losses recently.",
-            "valueRating": "Medium"
+            "winnerId": "t5",
+            "confidence": 80,
+            "reasoning": "Cowley will toe the line as the pre-race favourite alongside Olivia Sandery.",
+            "valueRating": "High"
         }
     }
 ]

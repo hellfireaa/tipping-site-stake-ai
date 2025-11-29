@@ -13,9 +13,6 @@ export function BetSlip() {
 
     const handlePlaceBet = () => {
         if (slip.length === 0) return;
-
-        // For simplicity, treating multiples as single bets for now in this UI
-        // In a real app, we'd handle multis vs singles differently
         slip.forEach(selection => {
             placeBet({
                 id: Math.random().toString(36).substr(2, 9),
@@ -24,7 +21,7 @@ export function BetSlip() {
                 selectionId: selection.selectionId,
                 selectionName: selection.selectionName,
                 odds: selection.odds,
-                stake: stake / slip.length, // Splitting stake for now
+                stake: stake / slip.length,
                 placedAt: new Date().toISOString(),
                 status: 'pending'
             });
@@ -36,60 +33,73 @@ export function BetSlip() {
     if (slip.length === 0) return null;
 
     return (
-        <div className={`fixed bottom-0 right-4 w-80 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-t-xl shadow-2xl transition-transform duration-300 z-50 ${isOpen ? "translate-y-0" : "translate-y-[calc(100%-3rem)]"}`}>
+        <div className={`fixed bottom-0 right-0 md:right-0 w-full md:w-80 bg-background border-t md:border-l border-border shadow-2xl transition-transform duration-300 z-50 ${isOpen ? "translate-y-0" : "translate-y-[calc(100%-3rem)]"} md:translate-y-0 md:static md:h-full`}>
+            {/* Header */}
             <div
-                className="bg-indigo-600 text-white p-3 rounded-t-xl flex items-center justify-between cursor-pointer"
+                className="bg-card border-b border-border p-3 flex items-center justify-between cursor-pointer md:cursor-default"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <div className="flex items-center gap-2">
-                    <span className="font-bold">Bet Slip</span>
-                    <span className="bg-white/20 px-2 py-0.5 rounded-full text-xs">{slip.length}</span>
+                    <div className="bg-primary text-primary-foreground h-6 w-6 rounded-full flex items-center justify-center font-bold text-xs">
+                        {slip.length}
+                    </div>
+                    <span className="font-bold text-sm uppercase tracking-wide text-foreground">Bet Slip</span>
                 </div>
-                <div className="flex items-center gap-3">
-                    <span className="text-sm font-medium">{formatCurrency(bankroll)}</span>
+                <div className="flex items-center gap-3 md:hidden">
+                    <span className="font-bold text-sm text-accent">{formatCurrency(bankroll)}</span>
                     {isOpen ? <ChevronDown className="h-4 w-4" /> : <ChevronUp className="h-4 w-4" />}
                 </div>
             </div>
 
-            <div className="p-4 max-h-[60vh] overflow-y-auto">
-                <div className="space-y-3 mb-4">
+            {/* Content */}
+            <div className="flex flex-col h-[calc(100vh-14rem)] md:h-auto">
+                <div className="flex-1 overflow-y-auto p-2 space-y-2 bg-background">
                     {slip.map((sel) => (
-                        <div key={`${sel.eventId}-${sel.selectionId}`} className="bg-zinc-50 dark:bg-zinc-800/50 p-3 rounded-lg relative group">
+                        <div key={`${sel.eventId}-${sel.selectionId}`} className="bg-card border border-border p-3 rounded-sm relative">
                             <button
                                 onClick={(e) => { e.stopPropagation(); removeFromSlip(sel.eventId, sel.selectionId); }}
-                                className="absolute top-2 right-2 text-zinc-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"
+                                className="absolute top-2 right-2 text-muted-foreground hover:text-destructive"
                             >
                                 <X className="h-4 w-4" />
                             </button>
-                            <div className="text-xs text-zinc-500 mb-1">{sel.eventName}</div>
-                            <div className="flex justify-between items-center">
-                                <span className="font-medium">{sel.selectionName}</span>
-                                <span className="text-sm font-bold text-indigo-600">{sel.odds.toFixed(2)}</span>
+                            <div className="pr-6">
+                                <div className="font-bold text-sm text-primary mb-0.5">{sel.selectionName}</div>
+                                <div className="text-xs text-muted-foreground mb-2">{sel.eventName}</div>
+                            </div>
+                            <div className="flex justify-between items-center bg-muted/50 p-2 rounded-sm">
+                                <span className="font-bold text-sm text-foreground">Win</span>
+                                <span className="font-bold text-sm text-primary bg-primary/10 px-2 py-0.5 rounded">{sel.odds.toFixed(2)}</span>
                             </div>
                         </div>
                     ))}
                 </div>
 
-                <div className="space-y-4 border-t border-zinc-100 dark:border-zinc-800 pt-4">
-                    <div className="flex justify-between items-center">
-                        <span className="text-sm text-zinc-500">Total Stake</span>
+                {/* Footer / Stake */}
+                <div className="p-3 bg-card border-t border-border space-y-3">
+                    <div className="flex items-center justify-between">
+                        <span className="text-xs font-bold text-muted-foreground uppercase">Stake per bet</span>
                         <div className="flex items-center gap-2">
-                            <span className="text-sm text-zinc-400">SB</span>
+                            <span className="text-sm font-bold text-foreground">$</span>
                             <Input
                                 type="number"
                                 value={stake}
                                 onChange={(e) => setStake(parseFloat(e.target.value))}
-                                className="w-20 h-8 text-right"
+                                className="w-20 h-8 text-right font-bold bg-background border-border focus:border-primary rounded-sm"
                             />
                         </div>
                     </div>
-                    <div className="flex justify-between items-center text-sm">
-                        <span className="text-zinc-500">Est. Return</span>
-                        <span className="font-bold text-green-600">
+
+                    <div className="flex justify-between items-center">
+                        <span className="text-xs font-bold text-muted-foreground uppercase">Est. Returns</span>
+                        <span className="font-bold text-lg text-primary">
                             {formatCurrency(slip.reduce((acc, s) => acc * s.odds, 1) * stake)}
                         </span>
                     </div>
-                    <Button className="w-full bg-indigo-600 hover:bg-indigo-700" onClick={handlePlaceBet}>
+
+                    <Button
+                        className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base h-10 rounded-sm uppercase tracking-wide shadow-sm"
+                        onClick={handlePlaceBet}
+                    >
                         Place Bet
                     </Button>
                 </div>

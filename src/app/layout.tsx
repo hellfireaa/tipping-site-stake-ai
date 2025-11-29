@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased min-h-screen flex flex-col bg-zinc-50 dark:bg-black font-sans`}
+        className={`antialiased min-h-screen flex flex-col font-sans text-foreground bg-background`}
       >
         <BettingProvider>
           <Header />

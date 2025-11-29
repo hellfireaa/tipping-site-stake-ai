@@ -116,5 +116,765 @@
         },
         "profit": -20,
         "resolvedAt": "2025-11-25T12:56:04.136Z"
+    },
+    {
+        "id": "r1",
+        "type": "racing",
+        "title": "Winterbottom Stakes",
+        "venue": "Ascot",
+        "category": "Group 1 - 1200m",
+        "startTime": "2025-11-29T08:59:00Z",
+        "competitors": [
+            {
+                "id": "h1",
+                "name": "Overpass",
+                "number": 1,
+                "barrier": 5,
+                "jockey": "J. McDonald",
+                "odds": 2.6
+            },
+            {
+                "id": "h2",
+                "name": "Rothfire",
+                "number": 2,
+                "barrier": 3,
+                "jockey": "D. Oliver",
+                "odds": 5
+            },
+            {
+                "id": "h3",
+                "name": " শ্রেণী বিভাগ ",
+                "number": 3,
+                "barrier": 7,
+                "jockey": "C. Parnham",
+                "odds": 7.5
+            },
+            {
+                "id": "h4",
+                "name": "Kallista",
+                "number": 4,
+                "barrier": 1,
+                "jockey": "W. Pike",
+                "odds": 9
+            },
+            {
+                "id": "h5",
+                "name": "Rumour Says",
+                "number": 5,
+                "barrier": 8,
+                "jockey": "C. Johnston-Porter",
+                "odds": 11
+            },
+            {
+                "id": "h6",
+                "name": "Vilana",
+                "number": 6,
+                "barrier": 2,
+                "jockey": "B. Melham",
+                "odds": 13
+            },
+            {
+                "id": "h7",
+                "name": "The Astrologist",
+                "number": 7,
+                "barrier": 6,
+                "jockey": "J. Byrne",
+                "odds": 15
+            },
+            {
+                "id": "h8",
+                "name": "Realist",
+                "number": 8,
+                "barrier": 4,
+                "jockey": "H. Watson",
+                "odds": 17
+            }
+        ],
+        "prediction": {
+            "winnerId": "h1",
+            "confidence": 70,
+            "reasoning": "Overpass has shown consistent form and has a favorable barrier draw. The jockey, J. McDonald, is also a positive factor.",
+            "valueRating": "High"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "TBD",
+            "scoreOrTime": "TBD"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:20:26.201Z"
+    },
+    {
+        "id": "r2",
+        "type": "racing",
+        "title": "Zipping Classic",
+        "venue": "Caulfield",
+        "category": "Group 2 - 2400m",
+        "startTime": "2025-11-29T05:25:00Z",
+        "competitors": [
+            {
+                "id": "h9",
+                "name": "Gold Trip",
+                "number": 1,
+                "barrier": 3,
+                "jockey": "M. Zahra",
+                "odds": 3
+            },
+            {
+                "id": "h10",
+                "name": "Vow And Declare",
+                "number": 2,
+                "barrier": 5,
+                "jockey": "J. Allen",
+                "odds": 4.5
+            },
+            {
+                "id": "h11",
+                "name": "Persan",
+                "number": 3,
+                "barrier": 1,
+                "jockey": "D. Lane",
+                "odds": 6
+            },
+            {
+                "id": "h12",
+                "name": "ുമായി ബന്ധപ്പെട്ട",
+                "number": 4,
+                "barrier": 6,
+                "jockey": "L. Currie",
+                "odds": 8
+            },
+            {
+                "id": "h13",
+                "name": "Tough Enough",
+                "number": 5,
+                "barrier": 2,
+                "jockey": "T. Nugent",
+                "odds": 10
+            }
+        ],
+        "prediction": {
+            "winnerId": "h9",
+            "confidence": 65,
+            "reasoning": "Gold Trip is a strong contender in staying races and has a good jockey in M. Zahra.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "To be determined",
+            "scoreOrTime": "To be determined"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:20:27.274Z"
+    },
+    {
+        "id": "r3",
+        "type": "racing",
+        "title": "Festival Stakes",
+        "venue": "Rosehill",
+        "category": "Group 3 - 1500m",
+        "startTime": "2025-11-29T05:45:00Z",
+        "competitors": [
+            {
+                "id": "h14",
+                "name": "Yorkshire",
+                "number": 1,
+                "barrier": 4,
+                "jockey": "J. Bowman",
+                "odds": 3.5
+            },
+            {
+                "id": "h15",
+                "name": "Ellsberg",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "T. Clark",
+                "odds": 4
+            },
+            {
+                "id": "h16",
+                "name": "Brutality",
+                "number": 3,
+                "barrier": 1,
+                "jockey": "R. Bayliss",
+                "odds": 5.5
+            },
+            {
+                "id": "h17",
+                "name": "Kiss Sum",
+                "number": 4,
+                "barrier": 3,
+                "jockey": "K. O'Hara",
+                "odds": 7
+            },
+            {
+                "id": "h18",
+                "name": "Rustic Steel",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "B. Avdulla",
+                "odds": 9
+            },
+            {
+                "id": "h19",
+                "name": "Atishu",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "N. Rawiller",
+                "odds": 11
+            }
+        ],
+        "prediction": {
+            "winnerId": "h14",
+            "confidence": 60,
+            "reasoning": "Yorkshire is warming towards another win and is a strong contender in this race. J. Bowman is a top jockey.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "To follow",
+            "scoreOrTime": "To follow"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:20:28.245Z"
+    },
+    {
+        "id": "s1",
+        "type": "sport",
+        "title": "Sydney FC vs Western Sydney Wanderers",
+        "venue": "Netstrata Jubilee Stadium",
+        "category": "A-League",
+        "startTime": "2025-11-29T10:00:00Z",
+        "competitors": [
+            {
+                "id": "t1",
+                "name": "Sydney FC",
+                "odds": 1.8
+            },
+            {
+                "id": "t2",
+                "name": "Western Sydney Wanderers",
+                "odds": 2
+            }
+        ],
+        "prediction": {
+            "winnerId": "t1",
+            "confidence": 75,
+            "reasoning": "Sydney FC is at the top of the table with four straight wins. Playing at home gives them an edge.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "void",
+            "actualWinnerName": "Unknown",
+            "scoreOrTime": "Unknown"
+        },
+        "profit": 0,
+        "resolvedAt": "2025-11-29T00:20:29.203Z"
+    },
+    {
+        "id": "s2",
+        "type": "sport",
+        "title": "Philadelphia Eagles vs Chicago Bears",
+        "venue": "Lincoln Financial Field",
+        "category": "NFL",
+        "startTime": "2025-11-29T12:00:00Z",
+        "competitors": [
+            {
+                "id": "t3",
+                "name": "Philadelphia Eagles",
+                "odds": 1.5
+            },
+            {
+                "id": "t4",
+                "name": "Chicago Bears",
+                "odds": 2.5
+            }
+        ],
+        "prediction": {
+            "winnerId": "t3",
+            "confidence": 80,
+            "reasoning": "The Eagles are a strong team and are favored to win against the Bears. They have a better record and home-field advantage.",
+            "valueRating": "High"
+        },
+        "outcome": {
+            "result": "void",
+            "actualWinnerName": "Unknown",
+            "scoreOrTime": "Unknown"
+        },
+        "profit": 0,
+        "resolvedAt": "2025-11-29T00:20:30.287Z"
+    },
+    {
+        "id": "s3",
+        "type": "sport",
+        "title": "Knicks vs Bucks",
+        "venue": "Madison Square Garden",
+        "category": "NBA",
+        "startTime": "2025-11-29T11:40:00Z",
+        "competitors": [
+            {
+                "id": "t5",
+                "name": "Knicks",
+                "odds": 2.2
+            },
+            {
+                "id": "t6",
+                "name": "Bucks",
+                "odds": 1.7
+            }
+        ],
+        "prediction": {
+            "winnerId": "t6",
+            "confidence": 65,
+            "reasoning": "Bucks are a strong team in the NBA. Although playing away, their overall performance this season suggests a likely win.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "void",
+            "actualWinnerName": "Unknown",
+            "scoreOrTime": "Not available"
+        },
+        "profit": 0,
+        "resolvedAt": "2025-11-29T00:20:31.379Z"
+    },
+    {
+        "id": "r1",
+        "type": "racing",
+        "title": "Zipping Classic",
+        "venue": "Caulfield",
+        "category": "Race 8 - 2400m",
+        "startTime": "2025-11-29T00:00:00+00:00",
+        "competitors": [
+            {
+                "id": "h1",
+                "name": "Unspoken",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "Jockey 1",
+                "odds": 3
+            },
+            {
+                "id": "h2",
+                "name": " Cleveland",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey 2",
+                "odds": 4.5
+            },
+            {
+                "id": "h3",
+                "name": "Numerian",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey 3",
+                "odds": 6
+            },
+            {
+                "id": "h4",
+                "name": "Goldman",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey 4",
+                "odds": 8
+            },
+            {
+                "id": "h5",
+                "name": " серг",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey 5",
+                "odds": 10
+            },
+            {
+                "id": "h6",
+                "name": " Smokin' Romans",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey 6",
+                "odds": 12
+            },
+            {
+                "id": "h7",
+                "name": " Persan",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey 7",
+                "odds": 15
+            },
+            {
+                "id": "h8",
+                "name": " Duke De Sessa",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey 8",
+                "odds": 20
+            },
+            {
+                "id": "h9",
+                "name": " интерпретатор",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey 9",
+                "odds": 25
+            },
+            {
+                "id": "h10",
+                "name": " Горячий",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey 10",
+                "odds": 30
+            }
+        ],
+        "prediction": {
+            "winnerId": "h1",
+            "confidence": 70,
+            "reasoning": "Unspoken is warming towards another win. The horse has shown great potential and looks right on track for a big Cups campaign next Spring.",
+            "valueRating": "High"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "To be determined",
+            "scoreOrTime": "To be determined"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:31:50.848Z"
+    },
+    {
+        "id": "r2",
+        "type": "racing",
+        "title": "Winterbottom Stakes",
+        "venue": "Ascot",
+        "category": "Group 1 - 1200m",
+        "startTime": "2025-11-29T00:00:00+00:00",
+        "competitors": [
+            {
+                "id": "h11",
+                "name": "Oscar Whisky",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "Jockey A",
+                "odds": 4
+            },
+            {
+                "id": "h12",
+                "name": "Elite Street",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey B",
+                "odds": 5
+            },
+            {
+                "id": "h13",
+                "name": "Resortman",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey C",
+                "odds": 7
+            },
+            {
+                "id": "h14",
+                "name": " வரும்",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey D",
+                "odds": 9
+            },
+            {
+                "id": "h15",
+                "name": " Так",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey E",
+                "odds": 11
+            },
+            {
+                "id": "h16",
+                "name": " Stageman",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey F",
+                "odds": 13
+            },
+            {
+                "id": "h17",
+                "name": " Red Can Man",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey G",
+                "odds": 16
+            },
+            {
+                "id": "h18",
+                "name": " чат",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey H",
+                "odds": 18
+            },
+            {
+                "id": "h19",
+                "name": " Хотеть",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey I",
+                "odds": 22
+            },
+            {
+                "id": "h20",
+                "name": " Вулкан",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey J",
+                "odds": 26
+            },
+            {
+                "id": "h21",
+                "name": " Amasenus",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "Jockey K",
+                "odds": 31
+            },
+            {
+                "id": "h22",
+                "name": " Милый",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "Jockey L",
+                "odds": 35
+            }
+        ],
+        "prediction": {
+            "winnerId": "h11",
+            "confidence": 65,
+            "reasoning": "This week's early betting action has revealed where the sharp money is flowing.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "TBD",
+            "scoreOrTime": "TBD"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:31:51.952Z"
+    },
+    {
+        "id": "r3",
+        "type": "racing",
+        "title": "Festival Stakes",
+        "venue": "Rosehill",
+        "category": "Group 3 - 1500m",
+        "startTime": "2025-11-29T00:00:00+00:00",
+        "competitors": [
+            {
+                "id": "h23",
+                "name": "Yorkshire",
+                "number": 1,
+                "barrier": 1,
+                "jockey": "Jockey AA",
+                "odds": 3.5
+            },
+            {
+                "id": "h24",
+                "name": "Brutality",
+                "number": 2,
+                "barrier": 2,
+                "jockey": "Jockey BB",
+                "odds": 5.5
+            },
+            {
+                "id": "h25",
+                "name": " характерен",
+                "number": 3,
+                "barrier": 3,
+                "jockey": "Jockey CC",
+                "odds": 6.5
+            },
+            {
+                "id": "h26",
+                "name": " Palmetto",
+                "number": 4,
+                "barrier": 4,
+                "jockey": "Jockey DD",
+                "odds": 8.5
+            },
+            {
+                "id": "h27",
+                "name": " Detonator Jack",
+                "number": 5,
+                "barrier": 5,
+                "jockey": "Jockey EE",
+                "odds": 10.5
+            },
+            {
+                "id": "h28",
+                "name": " импортировать",
+                "number": 6,
+                "barrier": 6,
+                "jockey": "Jockey FF",
+                "odds": 12.5
+            },
+            {
+                "id": "h29",
+                "name": " Sky Lab",
+                "number": 7,
+                "barrier": 7,
+                "jockey": "Jockey GG",
+                "odds": 15.5
+            },
+            {
+                "id": "h30",
+                "name": " Attractable",
+                "number": 8,
+                "barrier": 8,
+                "jockey": "Jockey HH",
+                "odds": 17.5
+            },
+            {
+                "id": "h31",
+                "name": " демократия",
+                "number": 9,
+                "barrier": 9,
+                "jockey": "Jockey II",
+                "odds": 21.5
+            },
+            {
+                "id": "h32",
+                "name": " Голос",
+                "number": 10,
+                "barrier": 10,
+                "jockey": "Jockey JJ",
+                "odds": 23.5
+            },
+            {
+                "id": "h33",
+                "name": " Rangi Toa",
+                "number": 11,
+                "barrier": 11,
+                "jockey": "Jockey KK",
+                "odds": 27.5
+            },
+            {
+                "id": "h34",
+                "name": " Ken Randwick",
+                "number": 12,
+                "barrier": 12,
+                "jockey": "Jockey LL",
+                "odds": 33.5
+            }
+        ],
+        "prediction": {
+            "winnerId": "h23",
+            "confidence": 60,
+            "reasoning": "Yorkshire good to go, but caution still advised.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "To determine the actual winner, please await the official race results, which are typically available shortly after the race concludes.",
+            "scoreOrTime": "To determine the score or winning time, please await the official race results, which are typically available shortly after the race concludes."
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:31:53.410Z"
+    },
+    {
+        "id": "s1",
+        "type": "sport",
+        "title": "Marconi vs Moreton City Excelsior",
+        "venue": "Marconi Stadium",
+        "category": "Aus Championship: SF",
+        "startTime": "2025-11-29T12:30:00+00:00",
+        "competitors": [
+            {
+                "id": "t1",
+                "name": "Marconi",
+                "odds": 1.7
+            },
+            {
+                "id": "t2",
+                "name": "Moreton City Excelsior",
+                "odds": 2.2
+            }
+        ],
+        "prediction": {
+            "winnerId": "t1",
+            "confidence": 75,
+            "reasoning": "Marconi is playing at home. They should have the home crowd advantage",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "void",
+            "actualWinnerName": "Unknown",
+            "scoreOrTime": "Unknown"
+        },
+        "profit": 0,
+        "resolvedAt": "2025-11-29T00:31:55.611Z"
+    },
+    {
+        "id": "s2",
+        "type": "sport",
+        "title": "Central Coast Mariners vs Wellington Phoenix",
+        "venue": "Polytec Stadium",
+        "category": "ALW",
+        "startTime": "2025-11-29T02:15:00+00:00",
+        "competitors": [
+            {
+                "id": "t3",
+                "name": "Central Coast Mariners",
+                "odds": 1.9
+            },
+            {
+                "id": "t4",
+                "name": "Wellington Phoenix",
+                "odds": 1.9
+            }
+        ],
+        "prediction": {
+            "winnerId": "t3",
+            "confidence": 60,
+            "reasoning": "The Central Coast Mariners are slightly favored in this match-up.",
+            "valueRating": "Medium"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "Wellington Phoenix",
+            "scoreOrTime": "0-1"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:31:56.586Z"
+    },
+    {
+        "id": "s3",
+        "type": "sport",
+        "title": "Australian Athletics Marathon Race Walking Championships",
+        "venue": "Stromlo Forest Park",
+        "category": "Athletics",
+        "startTime": "2025-11-29T07:00:00+00:00",
+        "competitors": [
+            {
+                "id": "t5",
+                "name": "Rhydian Cowley",
+                "odds": 2.5
+            },
+            {
+                "id": "t6",
+                "name": "Olivia Sandery",
+                "odds": 3
+            }
+        ],
+        "prediction": {
+            "winnerId": "t5",
+            "confidence": 80,
+            "reasoning": "Cowley will toe the line as the pre-race favourite alongside Olivia Sandery.",
+            "valueRating": "High"
+        },
+        "outcome": {
+            "result": "lost",
+            "actualWinnerName": "Not available",
+            "scoreOrTime": "Not available"
+        },
+        "profit": -20,
+        "resolvedAt": "2025-11-29T00:31:57.564Z"
     }
 ]

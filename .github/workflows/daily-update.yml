@@ -4,6 +4,9 @@ on:
   schedule:
     # Run at 00:00 UTC every day (11:00 AM AEDT)
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - master
   workflow_dispatch: # Allow manual trigger
 
 jobs:

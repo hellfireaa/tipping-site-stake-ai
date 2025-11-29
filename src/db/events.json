@@ -2,414 +2,198 @@
     {
         "id": "r1",
         "type": "racing",
-        "title": "Zipping Classic",
+        "title": "Henley Homes Eclipse Stakes",
         "venue": "Caulfield",
-        "category": "Race 8 - Distance not specified",
-        "startTime": "2025-11-29T05:00:00Z",
+        "category": "Race 7 - 1800m",
+        "startTime": "2025-11-29T15:45:00+11:00",
         "competitors": [
             {
                 "id": "h1",
-                "name": "TBA Horse 1",
+                "name": "Kingswood",
                 "number": 1,
-                "barrier": 1,
-                "jockey": "TBA Jockey 1",
-                "odds": 4
-            },
-            {
-                "id": "h2",
-                "name": "TBA Horse 2",
-                "number": 2,
-                "barrier": 2,
-                "jockey": "TBA Jockey 2",
+                "barrier": null,
+                "jockey": "John Allen",
                 "odds": 4.5
             },
             {
-                "id": "h3",
-                "name": "TBA Horse 3",
-                "number": 3,
-                "barrier": 3,
-                "jockey": "TBA Jockey 3",
-                "odds": 5
-            },
-            {
-                "id": "h4",
-                "name": "TBA Horse 4",
-                "number": 4,
-                "barrier": 4,
-                "jockey": "TBA Jockey 4",
-                "odds": 6
-            },
-            {
-                "id": "h5",
-                "name": "TBA Horse 5",
+                "id": "h2",
+                "name": "Poison Chalice",
                 "number": 5,
-                "barrier": 5,
-                "jockey": "TBA Jockey 5",
-                "odds": 8
+                "barrier": null,
+                "jockey": null,
+                "odds": 3
             },
             {
-                "id": "h6",
-                "name": "TBA Horse 6",
-                "number": 6,
-                "barrier": 6,
-                "jockey": "TBA Jockey 6",
-                "odds": 10
-            },
-            {
-                "id": "h7",
-                "name": "TBA Horse 7",
-                "number": 7,
-                "barrier": 7,
-                "jockey": "TBA Jockey 7",
-                "odds": 12
-            },
-            {
-                "id": "h8",
-                "name": "TBA Horse 8",
-                "number": 8,
-                "barrier": 8,
-                "jockey": "TBA Jockey 8",
-                "odds": 15
-            },
-            {
-                "id": "h9",
-                "name": "TBA Horse 9",
-                "number": 9,
-                "barrier": 9,
-                "jockey": "TBA Jockey 9",
-                "odds": 20
-            },
-            {
-                "id": "h10",
-                "name": "TBA Horse 10",
-                "number": 10,
-                "barrier": 10,
-                "jockey": "TBA Jockey 10",
-                "odds": 25
-            },
-            {
-                "id": "h11",
-                "name": "TBA Horse 11",
-                "number": 11,
-                "barrier": 11,
-                "jockey": "TBA Jockey 11",
-                "odds": 30
-            },
-            {
-                "id": "h12",
-                "name": "TBA Horse 12",
-                "number": 12,
-                "barrier": 12,
-                "jockey": "TBA Jockey 12",
-                "odds": 40
+                "id": "h3",
+                "name": "Light Infantry Man",
+                "number": 1,
+                "barrier": null,
+                "jockey": null,
+                "odds": 5
             }
         ],
         "prediction": {
-            "winnerId": "h1",
-            "confidence": 60,
-            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Zipping Classic.",
-            "valueRating": "Medium"
+            "winnerId": "h2",
+            "confidence": 70,
+            "reasoning": "Poison Chalice is predicted to chase down Kingswood late in the race. Kingswood won at Flemington over 1800m but needs to carry extra weight.",
+            "valueRating": "High"
         }
     },
     {
         "id": "r2",
         "type": "racing",
         "title": "Festival Stakes",
-        "venue": "Rosehill",
-        "category": "Race details not specified",
-        "startTime": "2025-11-29T04:00:00Z",
+        "venue": "Rosehill Gardens",
+        "category": "Race 8 - 1500m",
+        "startTime": "2025-11-29T16:45:00+11:00",
         "competitors": [
             {
-                "id": "h13",
-                "name": "TBA Horse 13",
-                "number": 1,
-                "barrier": 1,
-                "jockey": "TBA Jockey 13",
+                "id": "h1",
+                "name": "Front Page",
+                "number": null,
+                "barrier": 5,
+                "jockey": "Nick Heywood",
                 "odds": 5
             },
             {
-                "id": "h14",
-                "name": "TBA Horse 14",
-                "number": 2,
-                "barrier": 2,
-                "jockey": "TBA Jockey 14",
-                "odds": 5.5
-            },
-            {
-                "id": "h15",
-                "name": "TBA Horse 15",
-                "number": 3,
-                "barrier": 3,
-                "jockey": "TBA Jockey 15",
-                "odds": 6
-            },
-            {
-                "id": "h16",
-                "name": "TBA Horse 16",
-                "number": 4,
-                "barrier": 4,
-                "jockey": "TBA Jockey 16",
+                "id": "h2",
+                "name": "A Little Deep",
+                "number": null,
+                "barrier": 1,
+                "jockey": "Tommy Berry",
                 "odds": 7
             },
             {
-                "id": "h17",
-                "name": "TBA Horse 17",
-                "number": 5,
-                "barrier": 5,
-                "jockey": "TBA Jockey 17",
-                "odds": 9
-            },
-            {
-                "id": "h18",
-                "name": "TBA Horse 18",
-                "number": 6,
-                "barrier": 6,
-                "jockey": "TBA Jockey 18",
-                "odds": 11
-            },
-            {
-                "id": "h19",
-                "name": "TBA Horse 19",
-                "number": 7,
-                "barrier": 7,
-                "jockey": "TBA Jockey 19",
-                "odds": 13
-            },
-            {
-                "id": "h20",
-                "name": "TBA Horse 20",
-                "number": 8,
-                "barrier": 8,
-                "jockey": "TBA Jockey 20",
-                "odds": 16
-            },
-            {
-                "id": "h21",
-                "name": "TBA Horse 21",
-                "number": 9,
-                "barrier": 9,
-                "jockey": "TBA Jockey 21",
-                "odds": 21
-            },
-            {
-                "id": "h22",
-                "name": "TBA Horse 22",
-                "number": 10,
-                "barrier": 10,
-                "jockey": "TBA Jockey 22",
-                "odds": 26
-            },
-            {
-                "id": "h23",
-                "name": "TBA Horse 23",
-                "number": 11,
+                "id": "h3",
+                "name": "Barber",
+                "number": null,
                 "barrier": 11,
-                "jockey": "TBA Jockey 23",
-                "odds": 31
-            },
-            {
-                "id": "h24",
-                "name": "TBA Horse 24",
-                "number": 12,
-                "barrier": 12,
-                "jockey": "TBA Jockey 24",
-                "odds": 41
+                "jockey": "Jason Collett",
+                "odds": 26
             }
         ],
         "prediction": {
-            "winnerId": "h13",
-            "confidence": 55,
-            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Festival Stakes.",
+            "winnerId": "h1",
+            "confidence": 65,
+            "reasoning": "Front Page has a good overall record, with 8 wins from 31 starts. A Little Deep has a strong record of 6 wins from 15 starts.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "r3",
         "type": "racing",
-        "title": "Recognition Stakes",
-        "venue": "Doomben",
-        "category": "Race details not specified",
-        "startTime": "2025-11-29T03:30:00Z",
+        "title": "MRC Membership Black Friday Sale Handicap",
+        "venue": "Caulfield",
+        "category": "Race 1 - 2400m",
+        "startTime": "2025-11-29T12:20:00+11:00",
         "competitors": [
             {
-                "id": "h25",
-                "name": "TBA Horse 25",
-                "number": 1,
-                "barrier": 1,
-                "jockey": "TBA Jockey 25",
-                "odds": 6
-            },
-            {
-                "id": "h26",
-                "name": "TBA Horse 26",
+                "id": "h1",
+                "name": "Black Run",
                 "number": 2,
-                "barrier": 2,
-                "jockey": "TBA Jockey 26",
-                "odds": 6.5
+                "barrier": null,
+                "jockey": null,
+                "odds": 3
             },
             {
-                "id": "h27",
-                "name": "TBA Horse 27",
-                "number": 3,
-                "barrier": 3,
-                "jockey": "TBA Jockey 27",
-                "odds": 7
-            },
-            {
-                "id": "h28",
-                "name": "TBA Horse 28",
+                "id": "h2",
+                "name": "Ziryab",
                 "number": 4,
-                "barrier": 4,
-                "jockey": "TBA Jockey 28",
-                "odds": 8
+                "barrier": null,
+                "jockey": "Mark Zahra",
+                "odds": 4.6
             },
             {
-                "id": "h29",
-                "name": "TBA Horse 29",
-                "number": 5,
-                "barrier": 5,
-                "jockey": "TBA Jockey 29",
-                "odds": 10
-            },
-            {
-                "id": "h30",
-                "name": "TBA Horse 30",
-                "number": 6,
-                "barrier": 6,
-                "jockey": "TBA Jockey 30",
-                "odds": 12
-            },
-            {
-                "id": "h31",
-                "name": "TBA Horse 31",
-                "number": 7,
-                "barrier": 7,
-                "jockey": "TBA Jockey 31",
-                "odds": 14
-            },
-            {
-                "id": "h32",
-                "name": "TBA Horse 32",
-                "number": 8,
-                "barrier": 8,
-                "jockey": "TBA Jockey 32",
-                "odds": 17
-            },
-            {
-                "id": "h33",
-                "name": "TBA Horse 33",
-                "number": 9,
-                "barrier": 9,
-                "jockey": "TBA Jockey 33",
-                "odds": 22
-            },
-            {
-                "id": "h34",
-                "name": "TBA Horse 34",
-                "number": 10,
-                "barrier": 10,
-                "jockey": "TBA Jockey 34",
-                "odds": 27
-            },
-            {
-                "id": "h35",
-                "name": "TBA Horse 35",
-                "number": 11,
-                "barrier": 11,
-                "jockey": "TBA Jockey 35",
-                "odds": 32
-            },
-            {
-                "id": "h36",
-                "name": "TBA Horse 36",
-                "number": 12,
-                "barrier": 12,
-                "jockey": "TBA Jockey 36",
-                "odds": 42
+                "id": "h3",
+                "name": "Taramansour",
+                "number": 1,
+                "barrier": null,
+                "jockey": null,
+                "odds": 20
             }
         ],
         "prediction": {
-            "winnerId": "h25",
-            "confidence": 50,
-            "reasoning": "Unable to retrieve specific horse form data for this race. Prediction based on general expectations for the Recognition Stakes.",
+            "winnerId": "h1",
+            "confidence": 60,
+            "reasoning": "Black Run is in good form with recent wins and meets similar opposition. Ziryab is getting towards peak fitness.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s1",
         "type": "sport",
-        "title": "Baltimore Ravens vs Cincinnati Bengals",
-        "venue": "M&T Bank Stadium",
-        "category": "NFL Week 13",
-        "startTime": "2025-11-28T12:20:00Z",
+        "title": "Melbourne Storm vs. Brisbane Broncos",
+        "venue": "AAMI Park",
+        "category": "NRL",
+        "startTime": "2026-03-20T00:00:00+11:00",
         "competitors": [
             {
                 "id": "t1",
-                "name": "Baltimore Ravens",
-                "odds": 1.7
+                "name": "Melbourne Storm",
+                "odds": 1.9
             },
             {
                 "id": "t2",
-                "name": "Cincinnati Bengals",
+                "name": "Brisbane Broncos",
                 "odds": 2.1
             }
         ],
         "prediction": {
             "winnerId": "t1",
-            "confidence": 70,
-            "reasoning": "Ravens are playing at home and have a slightly better record this season. Their defense has been consistent, giving them an edge.",
+            "confidence": 60,
+            "reasoning": "The Melbourne Storm have a strong home record at AAMI Park. While the Broncos have been in good form, the Storm's experience and home advantage should give them the edge.",
             "valueRating": "Medium"
         }
     },
     {
         "id": "s2",
         "type": "sport",
-        "title": "Australia vs New Zealand",
-        "venue": "TBA",
-        "category": "Men's 2027 FIBA World Cup Qualifiers",
-        "startTime": "2025-11-28T08:00:00Z",
+        "title": "Sydney Swans vs. Carlton Blues",
+        "venue": "Sydney Cricket Ground",
+        "category": "AFL",
+        "startTime": "2026-03-05T00:00:00+11:00",
         "competitors": [
             {
-                "id": "t3",
-                "name": "Australia",
-                "odds": 1.4
+                "id": "t1",
+                "name": "Sydney Swans",
+                "odds": 1.7
             },
             {
-                "id": "t4",
-                "name": "New Zealand",
-                "odds": 2.75
+                "id": "t2",
+                "name": "Carlton Blues",
+                "odds": 2.2
             }
         ],
         "prediction": {
-            "winnerId": "t3",
-            "confidence": 75,
-            "reasoning": "Australia is generally stronger in basketball. Playing at home provides an additional advantage.",
-            "valueRating": "High"
+            "winnerId": "t1",
+            "confidence": 55,
+            "reasoning": "The Sydney Swans have a historically strong record against Carlton. Despite some recent form concerns, their overall team quality and home advantage make them slight favorites.",
+            "valueRating": "Medium"
         }
     },
     {
         "id": "s3",
         "type": "sport",
-        "title": "A-League Round 6",
-        "venue": "Various Stadiums",
-        "category": "A-League 2025-26",
-        "startTime": "2025-11-29T06:00:00Z",
+        "title": "Collingwood vs Adelaide Crows",
+        "venue": "MCG",
+        "category": "AFL",
+        "startTime": "2026-03-14T00:00:00+11:00",
         "competitors": [
             {
-                "id": "t5",
-                "name": "Team A",
-                "odds": 2
+                "id": "t1",
+                "name": "Collingwood",
+                "odds": 1.6
             },
             {
-                "id": "t6",
-                "name": "Team B",
-                "odds": 3.5
+                "id": "t2",
+                "name": "Adelaide Crows",
+                "odds": 2.3
             }
         ],
         "prediction": {
-            "winnerId": "t5",
-            "confidence": 65,
-            "reasoning": "Team A has shown better form in the early stages of the season. Their attacking lineup looks promising.",
+            "winnerId": "t1",
+            "confidence": 60,
+            "reasoning": "Collingwood has been a strong team. Adelaide had some losses recently.",
             "valueRating": "Medium"
         }
     }
